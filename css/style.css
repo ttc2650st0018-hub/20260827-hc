@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* 初期スタイルの調整 */
+*{
+    box-sizing: border-box;
+}
+/* 全体のスタイル調整 */
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Arial, "メイリオ", Meiryo, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #806342;
+    background-color: #fff;
+
+}
+/* 各要素の初期スタイル調整 */
+h1, h2{
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+a{
+    color: #806342;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+ul{
+    margin: 1em 0;
+    padding: 0;
+    list-style: none;
+}
+figure{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+address{
+    font-style: normal;
+}
+/* ヘッダーエリア */
+.header{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+
+.logo{
+    margin: 0;
+    text-align: center;
+
+}
+
+/* メインエリア */
+.main{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* 、メインイメージ */
+.top{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ナビケーション */
+
+.nav{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.nav-list li{
+    display: inline-block;
+    margin: 0;
+    border-left: 1px solid #806342;
+}
+
+.nav-list li:first-child{
+    border-left: none;
+}
+
+.nav-list a{
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+/* セクション */
+
+.section{
+    margin: 0 auto 80px;
+
+}
+
+/* 見出し */
+
+.heading{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* セクションabout */
+
+.about {
+    text-align: center;
+}
+
+/* セクションmenu */
+
+.menu{
+    text-align: center;
+
+}
+
+.menu-list{
+    display: inline-block;
+    margin-left: 30px;
+    list-style: disc;
+    text-align: left;
+}
+
+.menu-list li{
+    margin-bottom: 10px;
+}
